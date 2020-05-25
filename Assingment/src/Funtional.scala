@@ -9,7 +9,7 @@ object Funtional extends App{
   
   
   def count(x:Double):Double={
-    if(x>50){
+    if(x>=50){
       (24.95*x)-(24.95*x*0.4)+(3*50)+(0.75*(x-50));
     }else{
       (24.95*x)-(24.95*x*0.4)+(3*x);
